@@ -10,79 +10,23 @@
             robotArm.loadLevel("exercise 10");
             robotArm.speed = 300
 
+                
+                
+            for (var a = 9; a > 0; a--) {
+
                 robotArm.grab();
-                
+
+                for (var right = 0; right < a; right++) {
                 robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                
+                }
+
                 robotArm.drop();
                 
+                for (var left = 0; left < a; left++) {
                 robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
+                }
+            }
 
-                robotArm.grab();
-
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-
-                robotArm.drop();
-
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-
-                robotArm.grab();
-
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-
-                robotArm.drop();
-
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-
-                robotArm.grab();
-
-                robotArm.moveRight();
-                robotArm.moveRight();
-                robotArm.moveRight();
-
-                robotArm.drop();
-
-                robotArm.moveLeft();
-                robotArm.moveLeft();
-
-                robotArm.grab();
-
-                robotArm.moveRight();
-
-                robotArm.drop();
 
 
 
